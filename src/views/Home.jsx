@@ -1,20 +1,16 @@
 import React from 'react';
-import styled from 'styled-components';
-
+import { Button, Wrapper } from '../components/styled';
+import { Link } from 'react-router-dom';
 // components
 import Introduction from '../components/layout/introduction';
-
-const Wrapper = styled.section`
-	background: papayawhip;
-	height: 100vh;
-	width: 100%;
-	padding: 50px 0;
-`;
 
 function Home() {
 	return (
 		<Wrapper>
 			<Introduction />
+			<Link to="/new">
+				<Button style={{ margin: '25px auto' }}>New document</Button>
+			</Link>
 		</Wrapper>
 	);
 }

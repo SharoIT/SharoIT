@@ -1,11 +1,11 @@
 .app__title {
 	font-size: 4.5em;
 	text-align: center;
-	color: palevioletred;
+	color: white;
 }
 
 .app__description {
-	color: palevioletred;
+	color: white;
 	font-size: 1.2rem;
 	text-align: center;
 	margin-top: 5px;
